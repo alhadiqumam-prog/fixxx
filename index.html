@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasi Goreng Nusantara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">NASGOR<span>.</span></a>
+
+            <button class="hamburger" id="hamburger" aria-label="Buka menu">
+                ☰
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#testimoni">Testimoni</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+
+            <a href="#menu" class="nav-button">Pesan Sekarang</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="tagline">NASI GORENG SPESIAL</span>
+
+            <h1>
+                Nikmatnya Nasi Goreng,
+                <span>Bikin Ketagihan!</span>
+            </h1>
+
+            <p>
+                Rasakan kelezatan nasi goreng dengan bumbu
+                rempah pilihan, cita rasa khas Nusantara,
+                dan bahan-bahan berkualitas.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#menu" class="btn-primary">Lihat Menu</a>
+                <a href="#about" class="btn-secondary">Tentang Kami</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <!-- GANTI DENGAN GAMBAR NASI GORENG -->
+            <img src="foto nasi goreng.jpg" alt="Nasi goreng spesial">
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <div class="about-image">
+            <!-- GANTI GAMBAR -->
+            <img src="original.avif" alt="Proses memasak nasi goreng">
+        </div>
+
+        <div class="about-content">
+            <span class="tagline">TENTANG KAMI</span>
+
+            <h2>Kelezatan Tradisional dengan Cita Rasa Istimewa</h2>
+
+            <p>
+                Nasi Goreng Nusantara merupakan usaha kuliner
+                yang menyajikan nasi goreng dengan cita rasa
+                khas Indonesia.
+            </p>
+
+            <p>
+                Kami menggunakan bahan-bahan pilihan, bumbu
+                rempah berkualitas, serta proses memasak yang
+                menjaga rasa dan kualitas setiap hidangan.
+            </p>
+
+            <div class="about-features">
+                <div>
+                    <h3>100%</h3>
+                    <p>Bahan Berkualitas</p>
+                </div>
+
+                <div>
+                    <h3>Lezat</h3>
+                    <p>Rasa Istimewa</p>
+                </div>
+
+                <div>
+                    <h3>Fresh</h3>
+                    <p>Dimasak Saat Dipesan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu-section section" id="menu">
+        <div class="section-title">
+            <span class="tagline">MENU FAVORIT</span>
+            <h2>Pilihan Nasi Goreng Kami</h2>
+            <p>Nikmati berbagai pilihan nasi goreng dengan rasa yang menggoda.</p>
+        </div>
+
+        <div class="menu-container">
+
+            <div class="menu-card">
+                <img src="nasi goreng biasa.webp" alt="Nasi goreng original">
+
+                <div class="menu-info">
+                    <h3>Nasi Goreng Original</h3>
+                    <p>
+                        Nasi goreng dengan bumbu khas,
+                        telur, dan sayuran segar.
+                    </p>
+                    <div class="menu-bottom">
+                        <span class="price">Rp15.000</span>
+                        <a href="#kontak" class="order-link">Pesan →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="nasi-goreng-kencur-kemangi.jpg" alt="Nasi goreng spesial">
+
+                <div class="menu-info">
+                    <h3>Nasi Goreng Spesial</h3>
+                    <p>
+                        Nasi goreng dengan telur, ayam,
+                        sosis, dan bumbu spesial.
+                    </p>
+                    <div class="menu-bottom">
+                        <span class="price">Rp20.000</span>
+                        <a href="#kontak" class="order-link">Pesan →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="sego goreng pedes.jpg" alt="Nasi goreng pedas">
+
+                <div class="menu-info">
+                    <h3>Nasi Goreng Pedas</h3>
+                    <p>
+                        Perpaduan nasi goreng dan cabai
+                        pilihan untuk pecinta pedas.
+                    </p>
+                    <div class="menu-bottom">
+                        <span class="price">Rp18.000</span>
+                        <a href="#kontak" class="order-link">Pesan →</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- TESTIMONI -->
+    <section class="testimonial section" id="testimoni">
+        <div class="section-title">
+            <span class="tagline">TESTIMONI</span>
+            <h2>Apa Kata Pelanggan?</h2>
+            <p>Kepuasan pelanggan adalah kebahagiaan kami.</p>
+        </div>
+
+        <div class="testimonial-box">
+            <div class="stars">★★★★★</div>
+
+            <p id="testimonial-text">
+                "Nasi gorengnya enak banget!
+                Bumbunya terasa dan porsinya memuaskan."
+            </p>
+
+            <h3 id="testimonial-name">Andi Pratama</h3>
+
+            <div class="slider-buttons">
+                <button id="prev">❮</button>
+                <button id="next">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section class="contact section" id="kontak">
+        <div class="contact-content">
+            <span class="tagline">HUBUNGI KAMI</span>
+            <h2>Ingin Menikmati Nasi Goreng Kami?</h2>
+
+            <p>
+                Hubungi kami untuk informasi menu,
+                pemesanan, atau pertanyaan lainnya.
+            </p>
+
+            <div class="contact-info">
+                <p>☎ 08xxxxxxxxxx</p>
+                <p>✉ nasigoreng@email.com</p>
+                <p>⌖ Alamat usaha Anda</p>
+            </div>
+        </div>
+
+        <form id="contact-form">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" placeholder="Masukkan nama Anda">
+
+            <label for="hp">Nomor HP</label>
+            <input type="tel" id="hp" placeholder="Masukkan nomor HP">
+
+            <label for="pesan">Pertanyaan / Pesan</label>
+            <textarea id="pesan" placeholder="Tuliskan pesan Anda"></textarea>
+
+            <button type="submit" class="btn-primary">
+                Kirim Pesan
+            </button>
+
+            <p id="form-message"></p>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h2>NASGOR<span>.</span></h2>
+                <p>
+                    Menghadirkan nasi goreng lezat
+                    dengan cita rasa khas Nusantara.
+                </p>
+            </div>
+
+            <div>
+                <h3>Menu Navigasi</h3>
+                <a href="#home">Beranda</a>
+                <a href="#about">Tentang</a>
+                <a href="#menu">Menu</a>
+                <a href="#kontak">Kontak</a>
+            </div>
+
+            <div>
+                <h3>Media Sosial</h3>
+                <!-- TAMBAHKAN LINK MEDIA SOSIAL -->
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">WhatsApp</a>
+            </div>
+
+            <div>
+                <h3>Lokasi</h3>
+                <p>Alamat usaha Anda</p>
+                <a href="#">Lihat Google Maps</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>
+                © 2026 Nasi Goreng Nusantara.
+                All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
